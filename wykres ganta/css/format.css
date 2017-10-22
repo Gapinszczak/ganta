@@ -1,0 +1,61 @@
+#kanwa{
+	width: 1000px;
+	height: 200px;
+	background: lightgreen;
+	margin-left: 5px;
+	float: left;
+}
+.wys{
+	text-align:center;
+}
+#kanwaprawa{
+	text-align:left;
+	width: 200px;
+	height: 200px;
+	background:red;
+	margin-left: 5px;
+	float: left;
+}
+
+#wskaznik{
+	
+	background:green;
+	position: relative;
+	width: 20px;
+	height: 200px;
+	float: left;
+}
+
+.obiekt{
+	float: left;
+	height: 20px;
+	width: 100px;
+	position: relative;
+	background: orange;
+	border-radius: 6px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+
+#trojkat{
+	position: absolute;
+	width:0px;
+	height:0px;
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	border-left:15px solid black;
+}
+
+.kolo {
+	position: relative;
+	background: green;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border-radius: 15px;
+}
+.osoba{
+	position: relative;
+	height: 40px;
+}

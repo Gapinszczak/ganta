@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/format.css" type="text/css" />
+		<script type="text/javascript" src="script/oprogramowanie.js"></script>
+		<title>Michał Gapiński</title>
+		
+		<head>
+<body>
+
+<h1>Wykres Gantta</h1>
+
+<form action="#">
+	Ścieżka: 
+		<select onchange="funkcjasciezka()" id="sciezka">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		Czas trwania zadania: 
+		<select id="dni">
+			<option>1 Dzień</option>
+			<option>2 Dni</option>
+			<option>3 Dni</option>
+			<option>4 Dni</option>
+			<option>5 Dni</option>
+		</select>
+	<br><br>
+	
+	<button onclick="zadanie()">Dodaj nowe zadanie</button>
+
+	Treść nowego zadania: 
+		<input type="text" id="jakiezadanie" placeholder="Zadanie"></input>
+	<br />
+	<br />
+
+Ludzie odpowiedzialni za projekt: 
+	<select id="listaOsob">
+		
+	</select>
+	<button onclick="przypiszosobe()">Dodaj osobę odpowiedzialną</button>
+	Imie i nazwisko:
+	<input type="text" id="kto" placeholder="Imię i Nazwisko"></input>
+	<button onclick="wpisz()">Dodaj osobe</button>
+	
+
+</form>
+
+<br>
+<br>
+<br>
+
+		<div id="wskaznik">
+		<div id="trojkat">&nbsp;</div>
+		</div>
+		<div id="kanwa">
+		</div>
+		<div id="kanwaprawa">
+			<div id="1osoba" class="osoba"></div>
+			<div id="2osoba" class="osoba"></div>
+			<div id="3osoba" class="osoba"></div>
+			<div id="4osoba" class="osoba"></div>
+			<div id="5osoba" class="osoba"></div>
+		</div>
+
+		<body>
+</html>
